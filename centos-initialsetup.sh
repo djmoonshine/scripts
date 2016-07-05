@@ -1,4 +1,6 @@
+#/bin/sh
 nmtui
+yum -y install nano
 yum -y install wget
 yum -y install epel-release
 yum -y install bash-completion
@@ -13,3 +15,4 @@ wget http://ftp.hp.com/pub/softlib2/software1/pubsw-linux/p1944765023/v114614/hp
 wget http://ftp.hp.com/pub/softlib2/software1/pubsw-linux/p1580676007/v112777/hpsmh-7.5.4-3.x86_64.rpm
 #rpm -i hpsmh-7.5.4-3.x86_64.rpm
 #rpm -i hpssa-2.40-13.0.x86_64.rpm
+
